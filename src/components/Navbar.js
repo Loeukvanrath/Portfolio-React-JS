@@ -1,8 +1,9 @@
 import React from "react"
 import {links} from '../Data'
+
 const Navbar = () => {
     return(
-        <nav className='bg-orange-400'>
+        <nav className='bg-orange-400' >
             <div className='mx-auto max-w-7xl px-8 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
                <h2 className='text-3xl font-bold'>
                  Web <span className='text-amber-400'>Dev</span>
